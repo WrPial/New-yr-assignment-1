@@ -3,10 +3,11 @@
 body {
     margin: 0;
     font-family: 'Merriweather', serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .banner-images {
-    background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(/resources/Banner\ Image.png);
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(/resources/Banner\ Image.png);
     width: 1320px;
     height: 600px;
     background-position: center;
@@ -36,4 +37,38 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.offer-text {
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+
+}
+
+.holiday-deals {
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.all-catagory {
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+.newyear-image {
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    width: 802.9px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
