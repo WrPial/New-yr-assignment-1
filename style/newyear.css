@@ -71,4 +71,29 @@ body {
     height: 500px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 110px;
+    margin-bottom: 110px;
+}
+
+.container {
+    width: 1320px;
+    height: 600px;
+
+}
+
+
+.party-banner {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.party-greating {
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
 }
