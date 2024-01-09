@@ -5,7 +5,7 @@ body {
     font-family: 'Inter', sans-serif;
     max-width: 1250px;
     margin: 0 auto;
-    
+
 
 }
 
@@ -101,7 +101,7 @@ body {
     letter-spacing: 7.04px;
     flex-basis: 50%;
     padding-left: auto;
-    
+
 
 }
 
@@ -110,10 +110,9 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    flex-basis: 50%;
     width: 697px;
-    
-    
+
+
 }
 
 .btn-1 {
@@ -124,4 +123,78 @@ body {
     text-transform: uppercase;
     border: none;
     cursor: pointer;
+}
+
+.party-date {
+    background-color: antiquewhite;
+    width: 1320px;
+    height: 600px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 110px;
+    margin-bottom: 110px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    line-height: 10px;
+
+}
+
+.party-date span {
+    color: #F00;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.place {
+    color: #070211;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.date {
+    color: #070211;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.time {
+    color: #070211;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-bottom: 48px;
+}
+
+.btn-2 {
+    border-radius: 8px;
+    background: #F00;
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    
 }
